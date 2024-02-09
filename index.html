@@ -1,0 +1,446 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;700;800;900&family=Roboto&display=swap"
+          rel="stylesheet">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script>
+        tailwind.config = {
+            theme: {
+                fontFamily: {
+                    'montserrat': ['Montserrat'],
+                },
+                extend: {
+                    colors: {
+                        BgHeader: '#23856D',
+                        BgShop: '#FAFAFA',
+                        ul: '#737373',
+                        log: '#23A6F0',
+                        nesting: '#BDBDBD',
+                    },
+
+                }
+            }
+        }
+    </script>
+    <title>Bandage</title>
+</head>
+<body>
+<header>
+    <div class="bg-BgHeader text-white font-montserrat">
+        <div class=" lg:container lg:mx-auto flex items-center place-content-between pl-[120px] pr-[170px] py-[20px]">
+            <div class="flex text-[12px] gap-x-[5px] ">
+                <img src="img/header/svg/phone.svg" alt="phone">
+                <p>(225) 555-0118</p>
+            </div>
+            <div class="flex text-[12px] font-normal gap-x-[5px]">
+                <img src="img/header/svg/mail.svg" alt="mail">
+                <p>michelle.rivera@example.com</p>
+            </div>
+            <div class="font-bold text-[14px] leading-[24px] ">
+                <p>Follow Us and get a chance to win 80% off</p>
+            </div>
+            <div class="flex gap-x-[10px] font-bold text-[14px] leading-[24px]">
+                <p>Follow us:</p>
+                <img src="img/header/svg/inst.svg" alt="inst">
+                <img src="img/header/svg/youtube.svg" alt="youtube">
+                <img src="img/header/svg/face.svg" alt="face">
+                <img src="img/header/svg/twit.svg" alt="twit">
+            </div>
+        </div>
+    </div>
+    <div class="font-montserrat leading-[24px] flex lg:container mx-auto pl-[120px] pr-[140px] py-[23px] place-content-between">
+        <h1 class="font-bold text-[24px] leading-[32px]">
+            Bandage
+        </h1>
+        <nav class="flex items-center">
+            <ul class="flex gap-[15px] text-[14px] font-bold ">
+                <li><a href="#" class="text-ul">Home</a></li>
+                <li><a href="#" class="flex items-center gap-[8px]">Shop <span><img src="img/header/svg/Vector.svg" alt=""></span></a></li>
+                <li><a href="#" class="text-ul">About</a></li>
+                <li><a href="#" class="text-ul">Blog</a></li>
+                <li><a href="#" class="text-ul">Contact</a></li>
+                <li><a href="#" class="text-ul">Pages</a></li>
+            </ul>
+        </nav>
+        <div class="flex gap-[15px] items-center">
+            <div class="font-bold text-[14px] text-log flex gap-[5px] items-center ">
+                <img src="img/header/svg/chel.svg" alt="chel">
+                <p>Login / Register</p>
+            </div>
+            <img src="img/header/svg/search.svg" alt="search">
+            <div class="text-log flex gap-[5px]">
+                <img src="img/header/svg/shop.svg" alt="basket">
+                <p>1</p>
+            </div>
+            <div class="text-log flex gap-[5px]">
+                <img src="img/header/svg/hearth.svg" alt="hearth">
+                <p>1</p>
+            </div>
+        </div>
+    </div>
+</header>
+<main>
+    <section class="bg-BgShop font-montserrat font-bold">
+        <div class="flex place-content-between lg:container mx-auto pl-[110px] pr-[120px] pt-[30px] items-center">
+            <h2 class="text-[24px] leading-[32px]">Shop</h2>
+            <div class="flex gap-[10px] leading-[24px]">
+                <h3 class="text-[14px]">Home</h3>
+                <img src="img/main/svg/arrow%20right.svg" alt="arrow">
+                <h3 class="text-nesting text-[14px]">Shop</h3>
+            </div>
+        </div>
+        <div class="lg:container mx-auto pl-[100px] py-[40px]  flex gap-[15px]">
+            <div class="bg-[url('img/main/card-cover-5.jpg')] bg-no-repeat  flex flex-col items-center justify-center min-h-[223px] min-w-[205px]">
+                <div class="text-white">
+                    <p class="text-[16px] uppercase">Cloths</p>
+                    <p class="text-[14px] font-normal leading-[20px]">5 items</p>
+                </div>
+            </div>
+            <div class="bg-[url('img/main/card-cover-5.jpg')] bg-no-repeat  flex flex-col items-center justify-center min-h-[223px] min-w-[205px]">
+                <div class="text-white">
+                    <p class="text-[16px] uppercase">Cloths</p>
+                    <p class="text-[14px] font-normal leading-[20px]">5 items</p>
+                </div>
+            </div>
+            <div class="bg-[url('img/main/card-cover-5.jpg')] bg-no-repeat  flex flex-col items-center justify-center min-h-[223px] min-w-[205px]">
+                <div class="text-white">
+                    <p class="text-[16px] uppercase">Cloths</p>
+                    <p class="text-[14px] font-normal leading-[20px]">5 items</p>
+                </div>
+            </div>
+            <div class="bg-[url('img/main/card-cover-5.jpg')] bg-no-repeat  flex flex-col items-center justify-center min-h-[223px] min-w-[205px]">
+                <div class="text-white">
+                    <p class="text-[16px] uppercase">Cloths</p>
+                    <p class="text-[14px] font-normal leading-[20px]">5 items</p>
+                </div>
+            </div>
+            <div class="bg-[url('img/main/card-cover-5.jpg')] bg-no-repeat  flex flex-col items-center justify-center min-h-[223px] min-w-[205px]">
+                <div class="text-white">
+                    <p class="text-[16px] uppercase">Cloths</p>
+                    <p class="text-[14px] font-normal leading-[20px]">5 items</p>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="font-montserrat font-bold">
+        <div class="lg:container flex place-content-between items-center mx-auto pl-[110px] pr-[120px] pt-[30px]">
+            <p class="text-[14px] leading-[24px] text-ul">Showing all 12 results</p>
+            <div class="flex items-center gap-[15px]">
+                <p class="text-[14px] leading-[24px] text-ul">Views:</p>
+                <img src="img/main/svg/btn-sm-24.svg" alt="">
+                <img src="img/main/svg/btn-24.svg" alt="">
+            </div>
+            <div class="flex gap-[15px]">
+                <button class="bg-[#DDDDDD] min-w-[141px] min-h-[50px] rounded-[5px] font-normal text-[14px] leading-[28px] text-ul">
+                    Popularity
+                </button>
+                <button class="bg-[#23A6F0] min-w-[94px] min-h-[50px] rounded-[5px] text-[14px] leading-[24px] text-white">
+                    Filter
+                </button>
+            </div>
+        </div>
+        <div class="lg:container mx-auto pl-[110px] pr-[120px] pt-[30px] grid grid-cols-4 gap-y-[80px]">
+            <!--            1-->
+            <div class=" max-w-[239px]">
+                <img src="img/main/girl-shop.png" alt="girl-shop">
+                <div class="text-center flex-col items-center">
+                    <h2 class="leading-[24px] pt-[25px] pb-[10px]">Graphic Design</h2>
+                    <p class="pb-[10px] text-ul">English Department</p>
+                    <div class="pb-[15px]">
+                        <span class="text-[#BDBDBD]">$16.48</span>
+                        <span class="text-[#23856D]">$6.48</span>
+                    </div>
+                    <div class="flex items-center gap-[5px] justify-center">
+                        <img src="img/main/svg/blue.svg" alt="blue ball">
+                        <img src="img/main/svg/green.svg" alt="green ball">
+                        <img src="img/main/svg/orange.svg" alt="orange ball">
+                        <img src="img/main/svg/green.svg" alt="green ball">
+                    </div>
+                </div>
+            </div>
+            <!--            2-->
+            <div class=" max-w-[239px]">
+                <img src="img/main/girl-shop.png" alt="girl-shop">
+                <div class="text-center flex-col items-center">
+                    <h2 class="leading-[24px] pt-[25px] pb-[10px]">Graphic Design</h2>
+                    <p class="pb-[10px] text-ul">English Department</p>
+                    <div class="pb-[15px]">
+                        <span class="text-[#BDBDBD]">$16.48</span>
+                        <span class="text-[#23856D]">$6.48</span>
+                    </div>
+                    <div class="flex items-center gap-[5px] justify-center">
+                        <img src="img/main/svg/blue.svg" alt="blue ball">
+                        <img src="img/main/svg/green.svg" alt="green ball">
+                        <img src="img/main/svg/orange.svg" alt="orange ball">
+                        <img src="img/main/svg/green.svg" alt="green ball">
+                    </div>
+                </div>
+            </div>
+            <!--            3-->
+            <div class=" max-w-[239px]">
+                <img src="img/main/girl-shop.png" alt="girl-shop">
+                <div class="text-center flex-col items-center">
+                    <h2 class="leading-[24px] pt-[25px] pb-[10px]">Graphic Design</h2>
+                    <p class="pb-[10px] text-ul">English Department</p>
+                    <div class="pb-[15px]">
+                        <span class="text-[#BDBDBD]">$16.48</span>
+                        <span class="text-[#23856D]">$6.48</span>
+                    </div>
+                    <div class="flex items-center gap-[5px] justify-center">
+                        <img src="img/main/svg/blue.svg" alt="blue ball">
+                        <img src="img/main/svg/green.svg" alt="green ball">
+                        <img src="img/main/svg/orange.svg" alt="orange ball">
+                        <img src="img/main/svg/green.svg" alt="green ball">
+                    </div>
+                </div>
+            </div>
+            <!--            4-->
+            <div class=" max-w-[239px]">
+                <img src="img/main/girl-shop.png" alt="girl-shop">
+                <div class="text-center flex-col items-center">
+                    <h2 class="leading-[24px] pt-[25px] pb-[10px]">Graphic Design</h2>
+                    <p class="pb-[10px] text-ul">English Department</p>
+                    <div class="pb-[15px]">
+                        <span class="text-[#BDBDBD]">$16.48</span>
+                        <span class="text-[#23856D]">$6.48</span>
+                    </div>
+                    <div class="flex items-center gap-[5px] justify-center">
+                        <img src="img/main/svg/blue.svg" alt="blue ball">
+                        <img src="img/main/svg/green.svg" alt="green ball">
+                        <img src="img/main/svg/orange.svg" alt="orange ball">
+                        <img src="img/main/svg/green.svg" alt="green ball">
+                    </div>
+                </div>
+            </div>
+            <!--            5-->
+            <div class=" max-w-[239px]">
+                <img src="img/main/man-shop.png" alt="girl-shop">
+                <div class="text-center flex-col items-center">
+                    <h2 class="leading-[24px] pt-[25px] pb-[10px]">Graphic Design</h2>
+                    <p class="pb-[10px] text-ul">English Department</p>
+                    <div class="pb-[15px]">
+                        <span class="text-[#BDBDBD]">$16.48</span>
+                        <span class="text-[#23856D]">$6.48</span>
+                    </div>
+                    <div class="flex items-center gap-[5px] justify-center">
+                        <img src="img/main/svg/blue.svg" alt="blue ball">
+                        <img src="img/main/svg/green.svg" alt="green ball">
+                        <img src="img/main/svg/orange.svg" alt="orange ball">
+                        <img src="img/main/svg/green.svg" alt="green ball">
+                    </div>
+                </div>
+            </div>
+            <!--            6-->
+            <div class=" max-w-[239px]">
+                <img src="img/main/man-shop.png" alt="girl-shop">
+                <div class="text-center flex-col items-center">
+                    <h2 class="leading-[24px] pt-[25px] pb-[10px]">Graphic Design</h2>
+                    <p class="pb-[10px] text-ul">English Department</p>
+                    <div class="pb-[15px]">
+                        <span class="text-[#BDBDBD]">$16.48</span>
+                        <span class="text-[#23856D]">$6.48</span>
+                    </div>
+                    <div class="flex items-center gap-[5px] justify-center">
+                        <img src="img/main/svg/blue.svg" alt="blue ball">
+                        <img src="img/main/svg/green.svg" alt="green ball">
+                        <img src="img/main/svg/orange.svg" alt="orange ball">
+                        <img src="img/main/svg/green.svg" alt="green ball">
+                    </div>
+                </div>
+            </div>
+            <!--            7-->
+            <div class=" max-w-[239px]">
+                <img src="img/main/man-shop.png" alt="girl-shop">
+                <div class="text-center flex-col items-center">
+                    <h2 class="leading-[24px] pt-[25px] pb-[10px]">Graphic Design</h2>
+                    <p class="pb-[10px] text-ul">English Department</p>
+                    <div class="pb-[15px]">
+                        <span class="text-[#BDBDBD]">$16.48</span>
+                        <span class="text-[#23856D]">$6.48</span>
+                    </div>
+                    <div class="flex items-center gap-[5px] justify-center">
+                        <img src="img/main/svg/blue.svg" alt="blue ball">
+                        <img src="img/main/svg/green.svg" alt="green ball">
+                        <img src="img/main/svg/orange.svg" alt="orange ball">
+                        <img src="img/main/svg/green.svg" alt="green ball">
+                    </div>
+                </div>
+            </div>
+            <!--            8-->
+            <div class=" max-w-[239px]">
+                <img src="img/main/man-shop.png" alt="girl-shop">
+                <div class="text-center flex-col items-center">
+                    <h2 class="leading-[24px] pt-[25px] pb-[10px]">Graphic Design</h2>
+                    <p class="pb-[10px] text-ul">English Department</p>
+                    <div class="pb-[15px]">
+                        <span class="text-[#BDBDBD]">$16.48</span>
+                        <span class="text-[#23856D]">$6.48</span>
+                    </div>
+                    <div class="flex items-center gap-[5px] justify-center">
+                        <img src="img/main/svg/blue.svg" alt="blue ball">
+                        <img src="img/main/svg/green.svg" alt="green ball">
+                        <img src="img/main/svg/orange.svg" alt="orange ball">
+                        <img src="img/main/svg/green.svg" alt="green ball">
+                    </div>
+                </div>
+            </div>
+            <!--            9-->
+            <div class=" max-w-[239px]">
+                <img src="img/main/girl-shop-2.png" alt="girl-shop">
+                <div class="text-center flex-col items-center">
+                    <h2 class="leading-[24px] pt-[25px] pb-[10px]">Graphic Design</h2>
+                    <p class="pb-[10px] text-ul">English Department</p>
+                    <div class="pb-[15px]">
+                        <span class="text-[#BDBDBD]">$16.48</span>
+                        <span class="text-[#23856D]">$6.48</span>
+                    </div>
+                    <div class="flex items-center gap-[5px] justify-center">
+                        <img src="img/main/svg/blue.svg" alt="blue ball">
+                        <img src="img/main/svg/green.svg" alt="green ball">
+                        <img src="img/main/svg/orange.svg" alt="orange ball">
+                        <img src="img/main/svg/green.svg" alt="green ball">
+                    </div>
+                </div>
+            </div>
+            <!--            10-->
+            <div class=" max-w-[239px]">
+                <img src="img/main/girl-shop-2.png" alt="girl-shop">
+                <div class="text-center flex-col items-center">
+                    <h2 class="leading-[24px] pt-[25px] pb-[10px]">Graphic Design</h2>
+                    <p class="pb-[10px] text-ul">English Department</p>
+                    <div class="pb-[15px]">
+                        <span class="text-[#BDBDBD]">$16.48</span>
+                        <span class="text-[#23856D]">$6.48</span>
+                    </div>
+                    <div class="flex items-center gap-[5px] justify-center">
+                        <img src="img/main/svg/blue.svg" alt="blue ball">
+                        <img src="img/main/svg/green.svg" alt="green ball">
+                        <img src="img/main/svg/orange.svg" alt="orange ball">
+                        <img src="img/main/svg/green.svg" alt="green ball">
+                    </div>
+                </div>
+            </div>
+            <!--            11-->
+            <div class=" max-w-[239px]">
+                <img src="img/main/girl-shop-2.png" alt="girl-shop">
+                <div class="text-center flex-col items-center">
+                    <h2 class="leading-[24px] pt-[25px] pb-[10px]">Graphic Design</h2>
+                    <p class="pb-[10px] text-ul">English Department</p>
+                    <div class="pb-[15px]">
+                        <span class="text-[#BDBDBD]">$16.48</span>
+                        <span class="text-[#23856D]">$6.48</span>
+                    </div>
+                    <div class="flex items-center gap-[5px] justify-center">
+                        <img src="img/main/svg/blue.svg" alt="blue ball">
+                        <img src="img/main/svg/green.svg" alt="green ball">
+                        <img src="img/main/svg/orange.svg" alt="orange ball">
+                        <img src="img/main/svg/green.svg" alt="green ball">
+                    </div>
+                </div>
+            </div>
+            <!--            12-->
+            <div class=" max-w-[239px]">
+                <img src="img/main/girl-shop-2.png" alt="girl-shop">
+                <div class="text-center flex-col items-center">
+                    <h2 class="leading-[24px] pt-[25px] pb-[10px]">Graphic Design</h2>
+                    <p class="pb-[10px] text-ul">English Department</p>
+                    <div class="pb-[15px]">
+                        <span class="text-[#BDBDBD]">$16.48</span>
+                        <span class="text-[#23856D]">$6.48</span>
+                    </div>
+                    <div class="flex items-center gap-[5px] justify-center">
+                        <img src="img/main/svg/blue.svg" alt="blue ball">
+                        <img src="img/main/svg/green.svg" alt="green ball">
+                        <img src="img/main/svg/orange.svg" alt="orange ball">
+                        <img src="img/main/svg/green.svg" alt="green ball">
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="flex items-center justify-center my-[50px]">
+            <div class="border border-[#E8E8E8]  rounded-[6.73px] max-w-[400px] min-h-[74px] flex items-center justify-center ">
+                <span class="bg-[#F3F3F3] p-[25px] text-[#BDBDBD]">First</span>
+                <span class="px-[20px] py-[25px] text-[#23A6F0] border-l-2 border-r-2">1</span>
+                <span class="bg-[#23A6F0] text-[#fff] px-[20px] py-[25px]">2</span>
+                <span class="px-[20px] py-[25px] text-[#23A6F0] border-l-2 border-r-2">3</span>
+                <span class="p-[25px] text-[#23A6F0]">Next</span>
+            </div>
+        </div>
+    </section>
+    <section class="bg-[#FAFAFA]">
+        <div class="flex items-center place-content-between  pl-[110px] pr-[120px] py-[50px] lg:container mx-auto">
+            <img src="img/main/svg/fa-brands_hooli.svg" class="max-h-[70px]" alt="">
+            <img src="img/main/svg/fa-brands_lyft.svg" class="max-h-[70px]" alt="">
+            <img src="img/main/svg/fa-brands_pied-piper-hat.svg" class="max-h-[70px]" alt="">
+            <img src="img/main/svg/fa-brands_stripe.svg" class="max-h-[70px]" alt="">
+            <img src="img/main/svg/fa-brands_aws.svg" class="max-h-[70px]" alt="">
+            <img src="img/main/svg/fa-brands_reddit-alien.svg" class="max-h-[70px]" alt="">
+        </div>
+    </section>
+    <footer>
+        <div class="pl-[110px] pr-[120px] py-[30px] lg:container mx-auto flex items-center place-content-between border-b-2">
+            <h2 class="font-bold text-[24px] leading-[32px]">
+                Bandage
+            </h2>
+            <div class="flex items-center gap-[20px]">
+                <img src="img/main/svg/ant-design_facebook-filled.svg" alt="facebook">
+                <img src="img/main/svg/inst.svg" alt="inst">
+                <img src="img/main/svg/twitter.svg" alt="twitter">
+            </div>
+        </div>
+        <div class="flex pl-[110px] pr-[120px] py-[30px] lg:container mx-auto place-content-between">
+            <div class="  font-bold font-montserrat text-[#737373] flex w-3/5 place-content-between  ">
+                <ul>
+                    <li class="pb-[20px] text-[#252B42] text-[16px]"><a href="#">Company Info</a></li>
+                    <li class="pb-[10px]"><a href="#">About Us</a></li>
+                    <li class="pb-[10px]"><a href="#">Carrier</a></li>
+                    <li class="pb-[10px]"><a href="#">We are hiring</a></li>
+                    <li class="pb-[10px]"><a href="#">Blog</a></li>
+                </ul>
+                <ul>
+                    <li class="pb-[20px] text-[#252B42] text-[16px]"><a href="#">Legal</a></li>
+                    <li class="pb-[10px]"><a href="#">About Us</a></li>
+                    <li class="pb-[10px]"><a href="#">Carrier</a></li>
+                    <li class="pb-[10px]"><a href="#">We are hiring</a></li>
+                    <li class="pb-[10px]"><a href="#">Blog</a></li>
+                </ul>
+                <ul>
+                    <li class="pb-[20px] text-[#252B42] text-[16px]"><a href="#">Features</a></li>
+                    <li class="pb-[10px]"><a href="#">Business Marketing</a></li>
+                    <li class="pb-[10px]"><a href="#">User Analytic</a></li>
+                    <li class="pb-[10px]"><a href="#">Live Chat</a></li>
+                    <li class="pb-[10px]"><a href="#">Unlimited Support</a></li>
+                </ul>
+                <ul>
+                    <li class="pb-[20px] text-[#252B42] text-[16px]"><a href="#">Resources</a></li>
+                    <li class="pb-[10px]"><a href="#">IOS & Android</a></li>
+                    <li class="pb-[10px]"><a href="#">Watch a Demo</a></li>
+                    <li class="pb-[10px]"><a href="#">Customers</a></li>
+                    <li class="pb-[10px]"><a href="#">API</a></li>
+                </ul>
+            </div>
+            <div class="font-bold font-montserrat">
+                <h2 class="text-[#252B42] text-[16px] pb-[10px]">Get In Touch</h2>
+                <label for="search">
+                    <input placeholder="Your Email"
+                           class="py-[15px] pl-[15px] bg-[#F9F9F9] text-[#737373] border rounded-l-lg text-[14px] font-normal"
+                           type="search" id="search">
+                </label>
+                <button class="bg-[#23A6F0] py-[13.5px] px-[22px] text-[#FFFFFF] border rounded-r-lg">Subscribe</button>
+                <p class="text-[#737373] font-normal text-[12px] leading-[28px]">Lore imp sum dolor Amit</p>
+            </div>
+        </div>
+        <div class="bg-[#FAFAFA] ">
+            <div class="font-bold font-montserrat text-[14px] leading-[24px] text-[#737373] pl-[110px] pr-[120px] py-[30px] lg:container mx-auto">
+                <p>Made With Love By Finland All Right Reserved</p>
+            </div>
+        </div>
+    </footer>
+</main>
+</body>
+</html>
